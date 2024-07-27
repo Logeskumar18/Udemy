@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#home {
+    height: 100vh;
+    width: 100vw;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 2px 5px black;
+
+}
+
+nav h1 {
+    padding: 10px;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+nav button {
+    all: unset;
+    margin: 17px 10px;
+    padding: 0px 20px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+nav i {
+    margin: 25px 20px;
+    font-size: 18px;
+}
+
+nav i:hover {
+    color: blueviolet;
+}
+
+.se-input {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 40px;
+    margin-top: 15px;
+    width: 250px;
+}
+
+.se-input i {
+    margin: 12px 20px;
+}
+
+.se-input input {
+    margin-top: 15px;
+    border: none;
+    outline: none;
+}
+
+#search-inp::placeholder {
+    text-align: center;
+}
+
+.log-in {
+    font-weight: 300;
+}
+
+.Sign {
+    background-color: black;
+    color: white;
+}
+
+.globe {
+    border: 2px solid black;
+    padding: 5px 7px;
+    margin-top: 19px;
+}
+
+.image {
+    width: 100%;
+    position: relative;
+}
+
+#homeimg {
+    width: 100%;
+}
+
+.image .imgbox {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 440px;
+    height: 190px;
+    background-color: white;
+    box-shadow: 0px 0px 1px gray;
+    padding: 30px;
+    font-family: 'Roboto';
+}
+
+.imgbox h3 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.text {
+    padding: 40px;
+}
+
+.text h3 {
+    font-weight: bold;
+    font-size: 38px;
+
+}
+
+.text p {
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.domain{
+    display: flex;
+   margin-left: 25px;
+    
+   
+}
+.domain a{
+    text-decoration: none;
+    color: gray;
+    margin: 0px 10px;
+}
+.domain a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.domain a:active{
+    border-bottom: 2px solid black;
+}
+.domain a h5{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.course{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.course a{
+    margin: 40px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 20px 30px;
+    background-color: gray;
+    opacity: 0.8;
+}
+.course a:hover{
+    color: white;
+    background-color: black;
+    opacity: 1;
+}
+.second{
+    flex: 2;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.container .box{
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
