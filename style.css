@@ -227,6 +227,10 @@ nav i:hover {
 }
 .Three p{
     text-align: center;
+    
+}
+.Three{
+    background-color: #F7F9FA;
 }
 .logo{
     margin-top: 50px;
@@ -243,4 +247,98 @@ li{
 .logo img{
     width: 50px;
     height: 50px;
+}
+.four .outer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.four .mainbox{
+    border: 2px solid black;
+    width: 420px;
+    border-radius: 10px;
+}
+
+.tcol{
+    background-color: #AB34EB;
+    height: 10px;
+    border-radius: 20px;
+}
+.four .inbox{
+    background-color: #F7F9FA;
+    ;
+}
+.tcol1{
+    background-color: #4E25BE;
+    height: 10px;
+    border-radius: 20px;
+}
+.inbox h3{
+    padding: 10px 30px 0px 30px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.inbox p{
+    padding: 0px 30px 0px 30px;
+    font-size: 14px;
+}
+.inbox span{
+    display: flex;
+}
+.inbox span i{
+    padding-left: 30px;
+}
+.inbox span p{
+    padding: 0px;
+}
+.four .outerbox{
+    padding: 30px;
+}
+.outerbox h6{
+    font-weight: bolder;
+}
+.outerbox p{
+    font-size: 14px;
+    padding-top: 0;
+}
+.outerbox button{
+    background-color: #2D2F31;
+    width: 370px;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.outerbox i{
+    padding-right: 15px;
+}
+.outerbox .igroup{
+    padding-top: 30px;
+}
+.five{
+    margin-top: 30px;
+}
+.five .container{
+    padding: 0;
+    margin: 30px 0px;
+}
+.five h2{
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+footer{
+    background-color: #2D2F31;
+    width: 100%;
+    height: 55vh;
+    color: white;
+}
+.ftop{
+    display: flex;
+}
+.ftop h4{
+    display: flex;
+}
+.ftopin{
+    display: flex;
+    justify-content: space-between;
 }
