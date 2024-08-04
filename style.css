@@ -331,14 +331,62 @@ footer{
     width: 100%;
     height: 55vh;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 .ftop{
     display: flex;
+    margin: 20px 20px;
 }
 .ftop h4{
-    display: flex;
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 .ftopin{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 15px;
+}
+
+footer .mid{
+    display: flex;
+    width: 100%;
+}
+.mid1,.mid2,.mid3{
+    width: 22%;
+    height: 200px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer .mid4{
+    position: relative;
+    left: 300px;
+    border: 1px solid white;
+    height: 33px;
+    display: flex;
+    width: 80px;
+    text-align: center;
+}
+.mid4 a:hover{
+    color: white;
+}
+.fbot{
+    display: flex;
+    width: 100%;   
     justify-content: space-between;
+    padding: 30px;
+}
+.fbot img{
+    width: 92px;
+    height: 35px;
+
 }
