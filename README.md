@@ -1,8 +1,4 @@
-Let's create a new README file for your Udemy repository.
 
-Here is a basic template for the README file:
-
-```markdown
 # Udemy Repository
 
 This repository contains HTML and CSS files for Udemy courses.
@@ -30,6 +26,4 @@ Feel free to contribute to this repository by submitting pull requests. Ensure t
 
 This repository is licensed under the MIT License. See the `LICENSE` file for more information.
 
-```
 
-Would you like me to create this README file for you?
